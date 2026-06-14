@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Voice Assistant</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static',
+          filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎤 Python Voice Assistant</h1>
+
+    <button id="listenBtn">
+        Start Listening
+    </button>
+
+    <p id="output">
+        Click the button and speak...
+    </p>
+
+</div>
+
+<script src="{{ url_for('static',
+filename='script.js') }}"></script>
+
+</body>
+</html>
